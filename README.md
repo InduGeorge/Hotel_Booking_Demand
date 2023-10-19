@@ -33,18 +33,46 @@ Link to clone the repository:https://github.com/InduGeorge/Hotel_Booking_Demand.
 
 Instructions:
 
-              Open your preferred Python environment (e.g., Jupyter Notebook, Spyder).
+              1. Open your preferred Python environment (e.g., Jupyter Notebook, Spyder).
 
-              Navigate to the Hotel Booking Demand - Prediction of booking cancellation.ipynb file within your project directory, which is located in the Hotel_Booking_Demand repository.
+              2. Navigate to the Hotel Booking Demand - Prediction of booking cancellation.ipynb file within your project directory, which is located in the Hotel_Booking_Demand repository.
 
-              Open the notebook by clicking on the Hotel Booking Demand - Prediction of booking cancellation.ipynb file.
+              3. Open the notebook by clicking on the Hotel Booking Demand - Prediction of booking cancellation.ipynb file.
 
-              Execute the code cells in the notebook sequentially by clicking on each cell and either pressing Shift+Enter or using the "Run" button in the notebook interface. This notebook is designed for predicting booking cancellations in hotel reservations.
+              4. Execute the code cells in the notebook sequentially by clicking on each cell and either pressing Shift+Enter or using the "Run" button in the notebook interface. This notebook is designed for predicting booking cancellations in hotel reservations.
 
 
 # Workflow 
-              
 
+### 1.Data Loading
+### 2.Data Preprocessing
+       1) Handling missing values
+       2) Handling outliers
+       3) Feature selection and feature engineering
+       4) Feature reduction
+       5) Encoding
+       6) Feature scaling
+### 3.Modeling and Hyper Parameter Tuning
+We have tried out different models and the accuracy scores for each of the model are as follows :
+
+Logistic Regression : 95%
+kNN : 92% 
+SVM (kernel - linear) : 96% 
+SVM (kernel - rbf) : 96% 
+Decision Tree Classifier : 95% 
+Random Forest Classifier : 96%
+              
+We have also performed model fine tuning/hyperparameter tuning for the below models
+
+1) kNN – using GridSearchCV
+
+Best Parameters: Best leaf_size: 1 Best p: 1 Best n_neighbors: 3 Accuracy : 87%
+
+2) Random Forest Classifier – using RandomizedSearchCV
+
+Best parameters : 'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 1000 Accuracy : 97%
+
+Random Forest Classifier after hyperparameter tuning gives the highest accuarcy of 97% and it is chosen as the best model.
 
 
    
