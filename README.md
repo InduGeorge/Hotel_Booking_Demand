@@ -16,7 +16,9 @@ The data used is the hotel demand dataset on Kaggle that contains information on
 
 # Required Development Tools & Setup
 1.Python environment like jupyter notebook or Google Colab.
+
 2. Libraries including:
+   
                        Numpy                             
                        Pandas                              
                        scikit-learn                       
@@ -24,8 +26,15 @@ The data used is the hotel demand dataset on Kaggle that contains information on
                        Seaborn
                        folium
                        plotly
-                       
-                       
+
+# Installation
+
+Link to clone the repository:
+
+
+   
+
+                                          
                        
 
 
