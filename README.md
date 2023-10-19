@@ -27,9 +27,10 @@ The data used is the hotel demand dataset on Kaggle that contains information on
                        folium
                        plotly
 
-# Installation
+## Installation
 
-Link to clone the repository:
+Link to clone the repository:https://github.com/InduGeorge/Hotel_Booking_Demand.git
+
 
 
    
