@@ -31,6 +31,16 @@ The data used is the hotel demand dataset on Kaggle that contains information on
 
 Link to clone the repository:https://github.com/InduGeorge/Hotel_Booking_Demand.git
 
+Instructions:
+
+              Open your preferred Python environment (e.g., Jupyter Notebook, Spyder).
+
+              Navigate to the Hotel Booking Demand - Prediction of booking cancellation.ipynb file within your project directory, which is located in the Hotel_Booking_Demand repository.
+
+              Open the notebook by clicking on the Hotel Booking Demand - Prediction of booking cancellation.ipynb file.
+
+              Execute the code cells in the notebook sequentially by clicking on each cell and either pressing Shift+Enter or using the "Run" button in the notebook interface. This notebook is designed for predicting booking cancellations in hotel reservations.
+
 
 
    
