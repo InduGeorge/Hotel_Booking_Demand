@@ -56,10 +56,15 @@ Instructions:
 We have tried out different models and the accuracy scores for each of the model are as follows :
 
 Logistic Regression : 95%
+
 kNN : 92% 
+
 SVM (kernel - linear) : 96% 
+
 SVM (kernel - rbf) : 96% 
+
 Decision Tree Classifier : 95% 
+
 Random Forest Classifier : 96%
               
 We have also performed model fine tuning/hyperparameter tuning for the below models
