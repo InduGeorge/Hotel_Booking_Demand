@@ -17,11 +17,13 @@ The data used is the hotel demand dataset on Kaggle that contains information on
 # Required Development Tools & Setup
 1.Python environment like jupyter notebook or Google Colab.
 2. Libraries including:
-                       Numpy                              Matplotlib
-                       Pandas                             Seaborn 
-                       scikit-learn                       folium
-                                                          plotly
-                       
+                       Numpy                             
+                       Pandas                              
+                       scikit-learn                       
+                       Matplotlib                                   
+                       Seaborn
+                       folium
+                       plotly
                        
                        
                        
