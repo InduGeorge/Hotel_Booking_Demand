@@ -42,6 +42,10 @@ Instructions:
               Execute the code cells in the notebook sequentially by clicking on each cell and either pressing Shift+Enter or using the "Run" button in the notebook interface. This notebook is designed for predicting booking cancellations in hotel reservations.
 
 
+# Workflow 
+              
+
+
 
    
 
